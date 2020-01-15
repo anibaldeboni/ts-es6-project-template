@@ -34,13 +34,6 @@ module.exports = {
   plugins: ['graphql', 'prettier', '@typescript-eslint'],
   overrides: [
     {
-      files: ['./src/data-sources/**/__tests__/*.spec.ts'],
-      rules: {
-        '@typescript-eslint/no-explicit-any': 'off',
-        'class-methods-use-this': 'off',
-      },
-    },
-    {
       files: ['./src/**/__tests__/*.ts'],
       rules: {
         'max-classes-per-file': 'off',
