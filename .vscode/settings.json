@@ -7,17 +7,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   },
-  "eslint.autoFixOnSave": true,
-  "eslint.validate": [
-    {
-      "autoFix": true,
-      "language": "javascript"
-    },
-    {
-      "autoFix": true,
-      "language": "typescript"
-    }
-  ],
   "typescript.tsdk": "node_modules/typescript/lib",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
